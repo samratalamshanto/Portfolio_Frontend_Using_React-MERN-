@@ -1,0 +1,213 @@
+.research {
+    margin-top: -1%;
+}
+
+.research .content {
+    width: 95%;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: -40px;
+
+}
+
+.research .research_box .heading img {
+    height: 120px;
+    width: 130px;
+    margin-top: 55%;
+    margin-left: 25%;
+}
+
+.research .box {
+    padding-top: 60px;
+    margin-bottom: 0;
+}
+
+.research .heading h1 {
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 60%;
+    color: #ff014f;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.content-section {
+    height: 600px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: white;
+    height: fit-content;
+}
+
+.gpa button {
+    font-weight: bold;
+    height: fit-content;
+
+}
+
+.content .box .title_content .title h3 {
+    height: fit-content;
+}
+
+
+.btn_shadow3 {
+    padding: 18px 25px;
+    border-radius: 8px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+    margin-top: 0px;
+}
+
+.btn_shadow3 {
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+
+}
+
+.btn_shadow3:hover {
+    background: #ff014f;
+    color: white;
+    transform: translateY(-10px);
+
+}
+
+.btn_shadow3:hover a {
+    text-decoration: none;
+
+}
+
+@media (max-width:768px) {
+    .research {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .research .research_box {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 5%;
+        margin: 0;
+    }
+
+    .research .research_box .heading {
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+
+    }
+
+    .research .heading h1 {
+        text-align: center;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+        letter-spacing: 2px;
+        font-size: 35px;
+    }
+
+
+    .research .research_box .heading img {
+        margin-top: 0;
+        margin-left: 40%;
+        height: 100px;
+        width: 110px;
+    }
+
+    .research .research_box .content {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .research .content .title_content .title {
+        text-align: justify;
+    }
+
+    .research .content .title_content .title h2 {
+        font-size: 17px;
+    }
+
+
+    .research .content .title_content .title h4 {
+        font-size: 15px;
+    }
+
+    .research .box {
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+
+
+
+}
+
+@media (max-width:400px) {
+    .research {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .research .research_box {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 5%;
+        margin: 0;
+    }
+
+    .research .research_box .heading {
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+
+    }
+
+    .research .heading h1 {
+        text-align: center;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+        letter-spacing: 2px;
+        font-size: 35px;
+    }
+
+
+    .research .research_box .heading img {
+        margin-top: 0;
+        margin-left: 27%;
+        height: 100px;
+        width: 110px;
+    }
+
+    .research .research_box .content {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .research .content .title_content .title {
+        text-align: left;
+    }
+
+    .research .content .title_content .title h2 {
+        font-size: 18px;
+    }
+
+
+    .research .content .title_content .title h4 {
+        font-size: 15px;
+    }
+
+    .research .box {
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+
+
+
+}

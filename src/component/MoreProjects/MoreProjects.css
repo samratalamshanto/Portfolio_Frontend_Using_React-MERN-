@@ -1,0 +1,201 @@
+.moreprojects {
+    margin-top: 4%;
+}
+
+.moreprojects .moreProjects_box {
+    height: fit-content;
+    margin-top: 40px;
+    background-color: #ffffff;
+}
+
+.moreprojects .content {
+    width: 95%;
+    margin: auto;
+    margin-left: -220px;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    height: fit-content;
+
+}
+
+
+
+.moreprojects .box {
+    padding-top: 60px;
+    margin-bottom: 0;
+
+}
+
+.moreprojects .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreprojects .heading img {
+    width: 90px;
+    height: 90px;
+    margin-top: -20%;
+    margin-left: -40%;
+}
+
+.moreprojects .heading h1 {
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 40%;
+    color: #ff014f;
+    font-weight: 900;
+}
+
+.content-sectio {
+    height: 600px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: white;
+    height: fit-content;
+}
+
+.gpa button {
+    font-weight: bold;
+    height: fit-content;
+
+}
+
+.content .box .title_content .title h3 {
+    height: fit-content;
+}
+
+
+.btn_shadow2 {
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+}
+
+.btn_shadow2 {
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+
+}
+
+.btn_shadow2:hover {
+    background: #ff014f;
+    color: white;
+    transform: translateY(-10px);
+
+}
+
+.btn_shadow2:hover a {
+    text-decoration: none;
+
+}
+
+@media (max-width:768px) {
+    .moreprojects .moreProjects_box {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .moreprojects .moreProjects_box {
+        margin-bottom: 5%;
+    }
+
+    .moreprojects .moreProjects_box .heading {
+        margin: 0;
+        margin-top: 0;
+        margin-left: 30%;
+
+    }
+
+    .moreprojects .moreProjects_box .heading img {
+        margin-left: -1px;
+        margin-top: 8%;
+        margin-left: -45%;
+
+
+    }
+
+    .moreprojects .moreProjects_box .heading h1 {
+        font-size: 35px;
+        text-align: center;
+        margin-left: -30px;
+    }
+
+    .moreprojects .moreProjects_box .content {
+        margin: 0;
+        margin-top: -10%;
+        margin: auto;
+    }
+
+    .moreprojects .moreProjects_box .content .box {
+        margin-top: -5%;
+    }
+
+    .moreprojects .moreProjects_box .content .box .title_content .title h3 {
+        font-size: 18px;
+        text-align: justify;
+
+    }
+
+    .moreprojects .moreProjects_box .content .box .title_content .gpa button {
+        margin-bottom: 2px;
+    }
+}
+
+@media (max-width:400px) {
+    .moreprojects .moreProjects_box {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .moreprojects .moreProjects_box {
+        margin-bottom: 5%;
+    }
+
+    .moreprojects .moreProjects_box .heading {
+        margin: 0;
+        margin-top: 0;
+        margin-left: 35%;
+
+    }
+
+    .moreprojects .moreProjects_box .heading img {
+        margin-left: 0px;
+        margin-top: 8%;
+        margin-left: -60%;
+
+
+    }
+
+    .moreprojects .moreProjects_box .heading h1 {
+        font-size: 35px;
+        text-align: center;
+        margin-left: -30px;
+    }
+
+    .moreprojects .moreProjects_box .content {
+        margin: 0;
+        margin-top: -10%;
+        margin: auto;
+    }
+
+    .moreprojects .moreProjects_box .content .box {
+        margin-top: -5%;
+    }
+
+    .moreprojects .moreProjects_box .content .box .title_content .title h3 {
+        font-size: 18px;
+        text-align: justify;
+
+    }
+
+    .moreprojects .moreProjects_box .content .box .title_content .gpa button {
+        margin-bottom: 2px;
+    }
+}
